@@ -22,6 +22,7 @@
     color: #fff;
     letter-spacing: 4px;
     position: sticky;
+    overflow: hidden;
 }
 
 .topbar.dark{
@@ -35,6 +36,7 @@
     color: #fff;
     letter-spacing: 4px;
     position: sticky;
+    overflow: hidden;
 }
 
 
