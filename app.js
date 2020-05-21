@@ -1,16 +1,14 @@
-new Vue({
-  el: "#app",
-  data: {
-    store: "",
+const app = new Vue({
+  el:'#app',
+  data:{
+    store:''
   },
   mounted() {
-    if (localStorage.store) {
-      this.store = localStorage.store;
-    }
+    if(localStorage.store) this.store = localStorage.store;
   },
-  watch: {
+  watch:{
     store(newstore) {
-      localStorage.store = this.newstore;
-    },
-  },
-});
+      localStorage.store = newstore;
+    }
+  }
+})
