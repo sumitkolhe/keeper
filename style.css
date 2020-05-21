@@ -22,33 +22,23 @@
     color: #fff;
     letter-spacing: 4px;
     position: sticky;
-    overflow: hidden;
+    z-index: 10000;
+    
 }
 
-.topbar.dark{
-    width: 100%;
-    height: 60px;
+.topbardark{
     background-color: #212121;
-    padding: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: #fff;
-    letter-spacing: 4px;
-    position: sticky;
-    overflow: hidden;
+    color: #fff;  
 }
 
 
 
 #night{
     float: right;
-    z-index: 1000;
     display: block;
 }
 #day{
     float: right;
-    z-index: 1000;
     display: none;
 }
 
@@ -73,15 +63,8 @@
 }
 
 .dark{
-    width: 100vw;
-    height: 100vh;
-    resize: none;
-    padding: .5rem .5rem;
-    line-height: 1.8rem;
+    
     background-color: #121212;
     color: #fff;
-    font-size: 20px;
-    overflow-y: visible;
-    border: none;
-    font-family: 'Calibre Web', sans-serif;
+   
 }
